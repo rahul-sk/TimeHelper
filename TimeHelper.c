@@ -13,7 +13,7 @@
 /*
  *@ Function      : get_current_time
  *@ return        : void 
- *@ brief         : This function is stores the current local time in an external array named timeString 
+ *@ brief         : This function retrieves the current local time and stores it in the str_out variable.
  */
 void get_current_time(char* str_out,unsigned int str_size)
 {
