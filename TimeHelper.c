@@ -1,3 +1,13 @@
+/*
+ * * TimeHelper.c
+ * *
+ * * Created on Nov, 2020
+ * *
+ * *
+ * * @Author: Rahul S Koimattur
+ * *
+ * */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
