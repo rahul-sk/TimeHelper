@@ -28,7 +28,7 @@
 void get_current_time(char* str_out,unsigned int str_size)
 {
 		time_t current_time;
-        struct tm * time_info;
+                struct tm * time_info;
 		time(&current_time);
 		time_info = localtime(&current_time);
 		strftime(str_out, str_size+1, "%H:%M:%S", time_info);
@@ -45,11 +45,11 @@ void get_current_time(char* str_out,unsigned int str_size)
 
 void get_end_time(int increment_hrs,char* str_out,unsigned int str_size)
 {
-		time_t current_time;
+        time_t current_time;
         struct tm * time_info;
-	    time(&current_time);
-		time_info = localtime(&current_time);
-		strftime(end_time_string, str_size+1, "%H:%M:%S", time_info);
+	time(&current_time);
+        time_info = localtime(&current_time);
+	strftime(end_time_string, str_size+1, "%H:%M:%S", time_info);
         char hrs[3] = {0};
 		char min[3] = {0};
 		char sec[3] = {0};
