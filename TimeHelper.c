@@ -38,7 +38,7 @@ void get_current_time(char* str_out,unsigned int str_size)
 /*
  *@ Function      : get_end_time
  *@ return        : void
- *@ Argument      : timeout value which has to be added to the current time
+ *@ Argument      : timeout value which has to be added to the current time.
  *@ brief         : This function adds the time value(increment_hrs) to the current time value and stores this value in the str_out variable.
  */
 
